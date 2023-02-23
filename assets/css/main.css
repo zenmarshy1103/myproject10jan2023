@@ -1,24 +1,27 @@
-.list-1 {
-    list-style: none;
-    list-style: lower-greek;
-    list-style-position: inside;
-    
+.image { 
+    /*Only do width or height but not both or picture will be very werid*/
+    /* height: 200px; */
+    /* width: 1000px; */
 }
 
-.list-2 {
-    /* list-style-type: none; */
+.background {
+    /*This is only for decorating purpses just background of the website*/
+    width: 100px;
+    height: 100px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url('https://picsum.photos/id/102/100');
 }
 
-.gallery {
-    list-style: none;
-
+.image, figure{
+    border: 5px solid;
+    width: fit-content;    
 }
 
-.gallery li {
-    display: inline-block
-}
-
-nav li {
-    list-style: none;
-    display: inline;
+img.photo {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    object-position: center;
 }
