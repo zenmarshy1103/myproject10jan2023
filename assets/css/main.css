@@ -1,0 +1,28 @@
+.box {
+    margin-top: 400px;
+    margin-left: 400px;
+    width: 200px;
+    height: 200px;
+    background-color: #f0f;
+    position: absolute;
+    /* top: 50%;
+    left: 50%; */
+    /*Makes it by () x larger, center stays at the same place*/
+    /* transform: scale(2); */
+    /* transform: scale(2,2); */
+
+    /* transform: rotate(45deg); */
+    /* transform: skew(-45deg); */
+
+    /*Moving element via translate (x,y)*/
+    /* transform: translate(200px, 100px) scale(2) rotate(45deg); */
+
+}
+
+.box:hover {
+    /* transform: scale(1.05); */
+    /* transform: translate(1px, 1px); */
+    /* scale: 1.5; */
+    /* rotate: 45deg; */
+    /* translate: 50px 50px; */
+}
